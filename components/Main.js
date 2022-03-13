@@ -1,6 +1,16 @@
 import React from 'react';
 
 export default class Main extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            myStory: false,
+            projects: false,
+            work: false,
+            education: false
+        }
+    }
+
     render(){
         return (
             <div>
