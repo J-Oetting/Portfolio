@@ -2063,25 +2063,9 @@ module.exports = {
 /*!****************************!*\
   !*** ./components/Main.js ***!
   \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Main)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-class Main extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Jordan Oetting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Software Engineer with Soft Skills to Match")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "My Story"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "Work Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "Education")));
-  }
-
-}
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/jordan/Code/Portfolio/components/Main.js: Unexpected keyword 'this'. (18:17)\n\n\u001b[0m \u001b[90m 16 |\u001b[39m         \u001b[36mreturn\u001b[39m (\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m             \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m                 {\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate\u001b[33m.\u001b[39mmain \u001b[33m?\u001b[39m \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[33mJordan\u001b[39m \u001b[33mOetting\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33mh2\u001b[39m\u001b[33m>\u001b[39m\u001b[33mSoftware\u001b[39m \u001b[33mEngineer\u001b[39m \u001b[36mwith\u001b[39m \u001b[33mSoft\u001b[39m \u001b[33mSkills\u001b[39m to \u001b[33mMatch\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mh2\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m                 \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:476:17)\n    at Object.raiseWithData (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:469:17)\n    at Object.raise (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:430:17)\n    at Object.checkReservedWord (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:13623:12)\n    at Object.parseObjectProperty (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:13263:12)\n    at Object.parseObjPropValue (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:13291:100)\n    at Object.parsePropertyDefinition (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:13208:10)\n    at Object.parseObjectLike (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:13099:21)\n    at Object.parseExprAtom (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:12498:23)\n    at Object.parseExprAtom (/Users/jordan/Code/Portfolio/node_modules/@babel/parser/lib/index.js:7812:20)");
 
 /***/ }),
 
@@ -34821,18 +34805,6 @@ module.exports = $gOPD;
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -34843,11 +34815,6 @@ module.exports = $gOPD;
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */

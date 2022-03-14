@@ -5,6 +5,7 @@ export default class MyStory extends React.Component{
         return (
             <div>
                 <h1>My Story</h1>
+                <p>timeline</p>
             </div>
         )
     }

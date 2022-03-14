@@ -4,6 +4,7 @@ export default class Main extends React.Component {
     constructor(){
         super();
         this.state = {
+            main: true,
             myStory: false,
             projects: false,
             work: false,
@@ -13,8 +14,8 @@ export default class Main extends React.Component {
 
     render(){
         return (
-            <div>
-                <div>
+            
+                {this.state.main ? <div><div>
                     <h1>Jordan Oetting</h1>
                     <h2>Software Engineer with Soft Skills to Match</h2>
                 </div>
@@ -23,8 +24,8 @@ export default class Main extends React.Component {
                     <button>Projects</button>
                     <button>Work Experience</button>
                     <button>Education</button>
-                </div>
-            </div>
+                </div></div> : <div></div>}
+            
         )
     }
 }
