@@ -1,45 +1,35 @@
 import React from 'react';
 import MyStory from './MyStory';
+import Projects from './Projects';
+import Education from './Education';
+import Experience from './Experience';
 import Navbar from './Navbar';
 
 export default class Main extends React.Component {
     constructor(){
         super();
-        this.state = {
-            main: true,
-            myStory: false,
-            projects: false,
-            work: false,
-            education: false
-        }
 
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(){
-        this.setState( prevState => ({
-            myStory: !prevState.myStory
-        }))
     }
 
     render(){
 
         return (
                 <div>
-                    <Navbar />
-                    <div>
+                    <header>
+                        <Navbar />
+                    </header>
+                    <div className='title'>
                         <h1>Jordan Oetting</h1>
                         <h2>Software Engineer with Soft Skills to Match</h2>
                     </div>
-                    {/* <div>
-                        <button onClick={this.handleClick}>My Story</button>
-                        <button>Projects</button>
-                        <button>Work Experience</button>
-                        <button>Education</button>
-                    </div>
-                    <div>
-                        {this.state.myStory ? <MyStory/> : null }
-                    </div> */}
+                    <MyStory />
+                    <Projects />
+                    <Education />
+                    <Experience />
                 </div>
             
         )

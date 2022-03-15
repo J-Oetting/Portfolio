@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Experience extends React.Component {
+export default class Experience extends React.Component {
     render (){
         return (
             <div>

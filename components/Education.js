@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Education extends React.Component {
+export default class Education extends React.Component {
     render(){
         return (
             <div>
