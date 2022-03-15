@@ -14,17 +14,18 @@ export default class Main extends React.Component {
 
     render(){
         return (
-            
-                {this.state.main ? <div><div>
-                    <h1>Jordan Oetting</h1>
-                    <h2>Software Engineer with Soft Skills to Match</h2>
-                </div>
                 <div>
-                    <button>My Story</button>
-                    <button>Projects</button>
-                    <button>Work Experience</button>
-                    <button>Education</button>
-                </div></div> : <div></div>}
+                    <div>
+                        <h1>Jordan Oetting</h1>
+                        <h2>Software Engineer with Soft Skills to Match</h2>
+                    </div>
+                    <div>
+                        <button>My Story</button>
+                        <button>Projects</button>
+                        <button>Work Experience</button>
+                        <button>Education</button>
+                    </div>
+                </div>
             
         )
     }
