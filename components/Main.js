@@ -1,5 +1,6 @@
 import React from 'react';
 import MyStory from './MyStory';
+import Navbar from './Navbar';
 
 export default class Main extends React.Component {
     constructor(){
@@ -25,11 +26,12 @@ export default class Main extends React.Component {
 
         return (
                 <div>
+                    <Navbar />
                     <div>
                         <h1>Jordan Oetting</h1>
                         <h2>Software Engineer with Soft Skills to Match</h2>
                     </div>
-                    <div>
+                    {/* <div>
                         <button onClick={this.handleClick}>My Story</button>
                         <button>Projects</button>
                         <button>Work Experience</button>
@@ -37,7 +39,7 @@ export default class Main extends React.Component {
                     </div>
                     <div>
                         {this.state.myStory ? <MyStory/> : null }
-                    </div>
+                    </div> */}
                 </div>
             
         )
