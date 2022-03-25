@@ -23,9 +23,13 @@ export default class Main extends React.Component {
                         <Navbar />
                     </header>
                     <div className='title'>
-                        <h1>Jordan Oetting</h1>
-                        <h2>Software Engineer with Soft Skills to Match</h2>
-                        <img src='./ProfilePic.jpg' />
+                        <div id='titleText'>
+                            <h1>Jordan Oetting</h1>
+                            <h2>Software Engineer with Soft Skills to Match</h2>
+                        </div>
+                        <div id='titlePic'>
+                            <img src='./ProfilePic.jpg' />
+                        </div>
                     </div>
                     <MyStory />
                     <Projects />
