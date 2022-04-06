@@ -28,7 +28,7 @@ export default class Main extends React.Component {
                             <h2>Software Engineer with Soft Skills to Match</h2>
                         </div>
                         <div id='titlePic'>
-                            <img src='./ProfilePic.jpg' />
+                            <img id='pic' src='./ProfilePic.jpg' />
                         </div>
                     </div>
                     <MyStory />

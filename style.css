@@ -70,4 +70,16 @@ a:hover {
 
 .title {
     display: flex;
+    justify-content: space-between;
+}
+
+#pic {
+    width: 500px;
+    margin: 10px;
+}
+
+div#titleText {
+    text-align: center;
+    margin-top: 175px;
+    flex-grow: 2;
 }
