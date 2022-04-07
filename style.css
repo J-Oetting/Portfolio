@@ -80,6 +80,8 @@ a:hover {
 
 div#titleText {
     text-align: center;
+    color: white;
+    background-color: lightblue;
     margin-top: 175px;
     flex-grow: 2;
 }
